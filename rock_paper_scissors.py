@@ -2,7 +2,7 @@ from numpy import random
 
 
 while True:
-    choice = input("select your coice : Rock - Paper - Scissors")
+    choice = input("select your choice : Rock - Paper - Scissors")
 
     computer = random.choice(["Rock", "Paper", "Scissors"])
 
@@ -21,7 +21,7 @@ while True:
     elif choice == "Scissors" and computer == "Paper":
         print("you win !")
     else:
-        print("invalid error!!")
+        print("error!!")
     play_again = input("Do you want to play again ?(y/n):")
     if play_again != "y":
         break    
